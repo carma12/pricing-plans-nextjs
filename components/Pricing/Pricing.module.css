@@ -1,0 +1,46 @@
+.pricing {
+    margin: 3% 17%;
+}
+
+.pricing__title, .pricing__options {
+    text-align: center;
+    background-color: #fdfefe;
+    color: #1f2643;
+    /*font-weight: 300;*/
+}
+
+.pricing__title {
+    font-weight: 700;
+    font-size: 2.6em;
+    margin: 1rem 0;
+}
+
+.pricing__options {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+.pricing__options p:nth-child(2) {
+    color: #ecf0f1;
+    font-size: 1.7em;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.currentOption {
+    color: #1f2643;
+    text-decoration: underline;
+    cursor: default;
+    pointer-events: none;
+}
+
+.underlinedNotSelected {
+    color: #1f2643;
+    text-decoration: none;
+}
+
+.pricingElements {
+    display: flex
+}

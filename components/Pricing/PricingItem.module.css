@@ -1,0 +1,126 @@
+.cardPricingItem {
+    height: fit-content;
+    margin: 0 40px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 27px rgba(0, 0, 0, 0.15);
+    padding: 32px;
+}
+
+.cardPricingItemHighlighted {
+    height: fit-content;
+    margin: 0 40px;
+    background-color: white;
+    border-radius: 3px;
+    box-shadow: 0 2px 27px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+    border: 5px solid #95bcf2;
+}
+
+.cardPricingItem__title {
+    color: #1f2643;
+}
+
+.cardPricingItem__description {
+    text-align: left;
+    color: #7a7e92;
+    margin: 2rem 0;
+}
+
+.cardPricingItem__Price {
+    display: flex;
+    align-items: center;
+}
+
+/* price */
+.cardPricingItem__Price h2:nth-child(1) {
+    font-weight: bold;
+    font-size: xx-large;
+    color: #1f2643;
+    margin: 0;
+}
+
+/* slash */
+.cardPricingItem__Price h2:nth-child(2) {
+    margin: 0 13px;
+    font-size: xx-large;
+    color: #ecf0f1;
+}
+
+.monthlyYearly {
+    margin: 1rem 0;
+}
+
+.monthlyYearly * {
+    padding: 0;
+    margin: 0;
+    color: #7a7e92;
+}
+
+.slash {
+    background-color: #d6dbdc;
+    border: none;
+    height: 2px !important;
+}
+
+/* what offers this plan section */
+.offeredDiv {
+    margin: 2rem 0;
+}
+
+.offeredDiv__list1, .offeredDiv__list2 {
+    display: flex;
+    align-items: center;
+}
+
+.offeredDiv__list2 {
+    justify-content: space-between;
+}
+
+.offeredDiv__list1 {
+    margin: 8px 0;
+}
+
+.offeredDiv__list1 li, .offeredDiv__list2 li {
+    list-style-type: none;
+}
+
+.offeredDiv__list1 li:nth-child(1) {
+    margin-right: 10px;
+    margin-bottom: 3px;
+    padding: 0 5px;
+    background-color: #f2f3f8;
+    border-radius: 26px;
+}
+
+.offeredDiv__list2 {
+    margin-right: 10px;
+    margin-bottom: 3px;
+    padding: 5px;
+}
+
+.darkBlueSymbol {
+    font-weight: 600;
+    color: #203c86;
+}
+
+.selectPlanButton {
+    background-color: #1288c9;
+    color: #fff;
+    display: block;
+    width: 100%;
+    border-radius: 25px;
+    padding: 12px 23px;
+    border: 1px solid transparent;
+}
+
+/* Gray symbols */
+.graySymbol {
+    color: #d4d9dc;
+}
+
+.graySymbolPointer {
+    color: #d4d9dc;
+    cursor: pointer;
+}
+
